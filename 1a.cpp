@@ -1,8 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int foo(int n){
-    if (n==1){
+long long foo(int n){
+    if (n==0){
         return 0;
     }
 
@@ -15,6 +15,7 @@ int foo(int n){
 
 int main(){
     int n = 50;
-    int ans = foo(n);
-    cout << "The first 50 fibonacci numbers are" << ans << endl;
+    for (int i = 0; i<n; i++){
+        cout << "The " << i << "th fibonacci number is " << foo(i) << endl;
+    }
 }
