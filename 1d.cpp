@@ -32,6 +32,7 @@ long long foo(int n, vector<long long> dp){
 int main(){
     int n = 50;
     vector <long long> dp(n+1,-1);
+    cout << "The fibonacci numbers are as follows : " << endl;
     for (int i=0; i<n; i++){
         cout << i << " : " << foo(i,dp) << endl;
     }

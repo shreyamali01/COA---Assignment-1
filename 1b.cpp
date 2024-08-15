@@ -21,8 +21,10 @@ long long foo(int n){
 
 int main(){
     int n = 50;
+    cout << "The fibonacci numbers are as follows : " << endl;
     for (int i=0; i<n; i++){
         cout << i << " : " << foo(i) << endl;
     }
+    return 0;
     
 }
