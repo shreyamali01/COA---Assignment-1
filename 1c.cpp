@@ -1,9 +1,13 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int foo(int n, vector<long long> &dp){ //passing the dp array by reference
-    if (n<=1){
-        return n;
+long long foo(int n, vector<long long> &dp){ //passing the dp array by reference
+    if (n==0){
+        return 0;
+    }
+
+    if (n==1){
+        return 1;
     }
 
     if (dp[n]!=-1){
