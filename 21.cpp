@@ -15,7 +15,7 @@ vector<vector<int> >  foo(vector<vector <int> >  M1, vector<vector<int> >  M2,in
 }
 
 int main(){
-    vector<int> nums = {4, 5, 6, 7, 3};
+    vector<int> nums = {64, 128, 256, 512, 1024};
     srand(static_cast<unsigned>(time(0))); //seeding random number generator
     int n = nums.size();
 
