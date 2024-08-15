@@ -2,6 +2,7 @@
 #include <vector>
 using namespace std;
 
+//every element in the matrix is an integer
 vector<vector<int> >  foo(vector<vector <int> >  M1, vector<vector<int> >  M2,int n){
     vector<vector<int> >  ans (n, vector<int>(n,0)); 
     for (int i=0; i<n; i++){

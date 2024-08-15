@@ -2,6 +2,7 @@
 #include <vector>
 using namespace std;
 
+//every element in the matrix is a double
 vector<vector<double> >  foo(vector<vector <double> >  M1, vector<vector<double> >  M2,int n){
     vector<vector<double> >  ans (n, vector<double>(n,0.0)); 
     for (int i=0; i<n; i++){
