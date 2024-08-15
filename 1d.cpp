@@ -33,7 +33,7 @@ int main(){
     int n = 50;
     vector <long long> dp(n+1,-1);
     for (int i=0; i<n; i++){
-        cout << i << " : " << foo(i,dp);
+        cout << i << " : " << foo(i,dp) << endl;
     }
     return 0;
 }
